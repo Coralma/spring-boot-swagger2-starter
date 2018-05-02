@@ -47,4 +47,8 @@ public class User implements Serializable {
     public void setCompany(String company) {
         this.company = company;
     }
+
+    public String toString() {
+        return "User {id="+ id +", name="+name +", age="+age + ", company=" + company + "}";
+    }
 }
